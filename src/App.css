@@ -1,0 +1,96 @@
+.top-bar {
+  display: flex;
+  /* flex-direction: column;
+  /* flex-grow: 1; */
+  text-align: center;
+  place-content: center;
+  /* justify-content: space-around;  */
+  /* padding: 40px; */
+  background: rgb(205, 216, 216);
+}
+.entry-details > h3 {
+  text-align: left;
+  padding-left: 50px;
+}
+.topbar-entry {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  /* flex-grow: 1; */
+  font-size: smaller;
+  /* margin-left: 300px; */
+  text-align: left;
+  justify-content: space-between;
+  padding: 40px;
+  background: r;
+}
+.button-group {
+  padding: 20px 0px;
+}
+.topbar-input {
+  display: flex;
+  /* margin-right: 400px; */
+  flex-direction: column;
+  width: min-content;
+  padding: 40px;
+}
+.body-group {
+  /* border: 1px solid red; */
+  margin-top: 51px;
+  margin-bottom: -20px;
+}
+
+.add-button {
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  width: 100px;
+  /* margin-left: 200px; */
+  padding: 4px;
+  transition: ease-in 400ms;
+}
+.add-button:hover {
+  cursor: pointer;
+  background-color: azure;
+  color: rgb(0, 74, 80);
+  transform: scale(1.02);
+}
+.modify-button {
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  margin-left: 4px;
+  padding: 4px;
+  transition: ease-in 400ms;
+}
+.modify-button:hover {
+  cursor: pointer;
+  background-color: azure;
+  color: rgb(0, 74, 80);
+  transform: scale(1.02);
+}
+
+.topbar-input > input {
+  padding: 4px;
+}
+.entry-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 40px;
+  /* text-align: center; */
+  background: rgb(157, 205, 219);
+  /* border: 2px solid rgb(0, 0, 0); */
+  border-radius: 5px;
+}
+@media screen and (max-width: 112px) {
+}
+.footer-buttons {
+  text-align: center;
+  padding: 50px;
+  background: rgb(205, 216, 216);
+}

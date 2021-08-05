@@ -1,0 +1,34 @@
+.process-table {
+  display: flex;
+  flex-direction: row;
+  font-size: smaller;
+  white-space: pre-line;
+  border: 2px solid black;
+  justify-content: space-between;
+  margin-right: 50px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  /* flex-basis: 0; */
+}
+.process-table > td {
+  /* padding: 50px; */
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px;
+  /* border: 1px solid rgb(3, 3, 32); */
+}
+.process-table > td > tr {
+  margin-top: 10px;
+  font-size: smaller;
+}
+.process-table > td > h4 {
+  /* border: 1px solid black; */
+}
+
+@media screen and (max-width: 777px) {
+  .process-table {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 500px; */
+  }
+}
